@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Camille
 guid: dfc6a4f48b1fd67488ccf99b6ad7ebd0
+=======
+guid: 98a2f389dfdb3014dad9e4787a87009d
+>>>>>>> Jamie
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,6 +97,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Camille
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -106,6 +111,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> Jamie
   spriteSheet:
     serializedVersion: 2
     sprites: []
