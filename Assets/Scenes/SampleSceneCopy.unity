@@ -6220,6 +6220,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lights (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2526212648607151155, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
+    - target: {fileID: 2642745082578635454, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436862621173884335, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
     - target: {fileID: 6453336490261210328, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 122.5
@@ -8273,6 +8285,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lights (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2526212648607151155, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
+    - target: {fileID: 3436862621173884335, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
     - target: {fileID: 6453336490261210328, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 123
@@ -20331,7 +20351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9a73f167a346f47b03dcd10ee74dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _mainCamera: {fileID: 0}
+  _mainCamera: {fileID: 267872179}
 --- !u!212 &980489850
 SpriteRenderer:
   serializedVersion: 2
@@ -22181,7 +22201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9a73f167a346f47b03dcd10ee74dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _mainCamera: {fileID: 0}
+  _mainCamera: {fileID: 267872179}
 --- !u!212 &1040439152
 SpriteRenderer:
   serializedVersion: 2
@@ -23103,7 +23123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9a73f167a346f47b03dcd10ee74dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _mainCamera: {fileID: 0}
+  _mainCamera: {fileID: 267872179}
 --- !u!212 &1095502620
 SpriteRenderer:
   serializedVersion: 2
@@ -35768,6 +35788,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lights (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2526212648607151155, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
+    - target: {fileID: 3436862621173884335, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
     - target: {fileID: 6453336490261210328, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 122.49999
@@ -44425,6 +44453,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lights
       objectReference: {fileID: 0}
+    - target: {fileID: 2526212648607151155, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
+    - target: {fileID: 3436862621173884335, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 267872179}
     - target: {fileID: 6453336490261210328, guid: f3382955b5b6efc46b06d5510e16349e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 123
@@ -44770,7 +44806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9a73f167a346f47b03dcd10ee74dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _mainCamera: {fileID: 0}
+  _mainCamera: {fileID: 267872179}
 --- !u!212 &1950499550
 SpriteRenderer:
   serializedVersion: 2
