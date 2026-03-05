@@ -24,18 +24,18 @@ public class LaserManager : MonoBehaviour
     {
         //template for the switching of lasers on and off should look identical to below with laser1.SetActive(true/false) and laser1Off renamed to the same names as declared above
         //each laser should have it's own if else if statement like the one below
-        if (laser1Off == false)
-        {
+        //if (laser1Off == false)
+        //{
             //Debug.Log("Disabling Laser1");
-            laser1.SetActive(false);
-            laser1Off = true;
-        }
-        else if (laser1Off == true)
-        {
+            //laser1.SetActive(false);
+            //laser1Off = true;
+        //}
+        //else if (laser1Off == true)
+        //{
             //Debug.Log("Enabling Laser1");
-            laser1.SetActive(true);
-            laser1Off = false;
-        }
+            //laser1.SetActive(true);
+            //laser1Off = false;
+        //}
 
     }
 
