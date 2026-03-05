@@ -13980,7 +13980,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: ee2ab64dafa470144807f774a3d098c7, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 8ef08cfbd3190db40bc54e23596b6c8b, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &635606637
 Transform:
@@ -21501,7 +21501,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.469864
+      value: 9.922831
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
       propertyPath: m_LocalScale.y
@@ -21513,11 +21513,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.205002
+      value: 11.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.120001
+      value: 5.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50406,6 +50406,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.1517
       objectReference: {fileID: 0}
+    - target: {fileID: 5770611609038106402, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: m_Height
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770611609038106402, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: m_BaseOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6029394252399334825, guid: dff5464741d24374791fd502e509a97c, type: 3}
       propertyPath: m_Range
       value: 8.191164
@@ -50490,9 +50498,17 @@ PrefabInstance:
       propertyPath: 'waypoints.Array.data[1]'
       value: 
       objectReference: {fileID: 2003017588}
+    - target: {fileID: 7799602430055655272, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8422816265172871387, guid: dff5464741d24374791fd502e509a97c, type: 3}
       propertyPath: m_Name
       value: Guard
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697126237520398988, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
