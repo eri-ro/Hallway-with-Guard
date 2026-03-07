@@ -1,18 +1,44 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Transform cameraTransform;
-    public float speed = 4.5f;
-    private float pitch;
 
-    void Start()
+    [Header("Movement")]
+    [SerializeField] private float speed = 4.5f;
+    [SerializeField] private float gravity = -20f;
+
+    [Header("Look")]
+    [SerializeField] private float mouseSensitivity = 2f;
+    [SerializeField] private float controllerSensitivity = 120f;
+    [SerializeField] private float minPitch = -80f;
+    [SerializeField] private float maxPitch = 80f;
+
+    private CharacterController controller;
+    private PlayerInput playerInput;
+    private InputAction moveAction;
+    private InputAction lookAction;
+
+    private float pitch;
+    private float verticalVelocity;
+
+    private void Awake()
     {
-        cameraTransform = GetComponentInChildren<Camera>()?.transform;
+        controller = GetComponent<CharacterController>();
+        playerInput = GetComponent<PlayerInput>();
+
+        moveAction = playerInput.actions["Move"];
+        lookAction = playerInput.actions["Look"];
+
+        if (cameraTransform == null)
+            cameraTransform = GetComponentInChildren<Camera>()?.transform;
     }
 
-    void Update()
+    private void Update()
     {
         Look();
         Move();
@@ -20,24 +46,49 @@ public class PlayerController : MonoBehaviour
 
     private void Look()
     {
-        float mouseX = Input.GetAxis("Mouse X") * 2f; // x2 for faster mouse look, might make variable?
-        float mouseY = Input.GetAxis("Mouse Y") * 2f;
+        if (cameraTransform == null) return;
 
-        // Yaw rotates the player body
-        transform.Rotate(Vector3.up * mouseX);
+        Vector2 lookInput = lookAction.ReadValue<Vector2>();
 
-        // Pitch rotates camera up/down
-        pitch -= mouseY;
+        bool usingGamepad = Gamepad.current != null && Gamepad.current.rightStick.IsActuated();
+
+        float lookX;
+        float lookY;
+
+        if (usingGamepad)
+        {
+            lookX = lookInput.x * controllerSensitivity * Time.deltaTime;
+            lookY = lookInput.y * controllerSensitivity * Time.deltaTime;
+        }
+        else
+        {
+            lookX = lookInput.x * mouseSensitivity;
+            lookY = lookInput.y * mouseSensitivity;
+        }
+
+        transform.Rotate(Vector3.up * lookX);
+
+        pitch -= lookY;
+        pitch = Mathf.Clamp(pitch, minPitch, maxPitch);
+
         cameraTransform.localRotation = Quaternion.Euler(pitch, 0f, 0f);
     }
 
     private void Move()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float z = Input.GetAxisRaw("Vertical");
+        Vector2 moveInput = moveAction.ReadValue<Vector2>();
 
-        Vector3 move = (transform.right * x + transform.forward * z);
+        Vector3 move = (transform.right * moveInput.x + transform.forward * moveInput.y);
+        move = Vector3.ClampMagnitude(move, 1f);
+
+        if (controller.isGrounded && verticalVelocity < 0f)
+            verticalVelocity = -2f;
+
+        verticalVelocity += gravity * Time.deltaTime;
+
         Vector3 velocity = move * speed;
-        GetComponent<CharacterController>().Move(velocity * Time.deltaTime);
+        velocity.y = verticalVelocity;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 }
