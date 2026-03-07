@@ -80,14 +80,8 @@ public class PlayerController : MonoBehaviour
 
         Vector3 move = (transform.right * moveInput.x + transform.forward * moveInput.y);
         move = Vector3.ClampMagnitude(move, 1f);
-
-        if (controller.isGrounded && verticalVelocity < 0f)
-            verticalVelocity = -2f;
-
-        verticalVelocity += gravity * Time.deltaTime;
-
+       
         Vector3 velocity = move * speed;
-        velocity.y = verticalVelocity;
 
         controller.Move(velocity * Time.deltaTime);
     }
