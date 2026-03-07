@@ -38,11 +38,23 @@ public class PlayerController : MonoBehaviour
             cameraTransform = GetComponentInChildren<Camera>()?.transform;
     }
 
-    private void Update()
+    void Update()
     {
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+        if (Mouse.current.leftButton.wasPressedThisFrame && Cursor.lockState != CursorLockMode.Locked)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+
         Look();
         Move();
-    }
+}
 
     private void Look()
     {
@@ -84,5 +96,11 @@ public class PlayerController : MonoBehaviour
         Vector3 velocity = move * speed;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    void OnEnable()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
