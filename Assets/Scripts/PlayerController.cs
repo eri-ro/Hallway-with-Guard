@@ -36,6 +36,10 @@ public class PlayerController : MonoBehaviour
     private float verticalVelocity;
     private bool isCrouching;
 
+    public Vector2 MoveInput { get; private set; }
+    public bool IsGrounded => controller != null && controller.isGrounded;
+    public bool IsCrouching => isCrouching;
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -102,6 +106,7 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         Vector2 moveInput = moveAction.ReadValue<Vector2>();
+        MoveInput = moveInput;
 
         Vector3 move = (transform.right * moveInput.x + transform.forward * moveInput.y);
         move = Vector3.ClampMagnitude(move, 1f);
