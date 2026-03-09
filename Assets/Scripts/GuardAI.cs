@@ -50,6 +50,9 @@ public class GuardAI : MonoBehaviour
 
     void Update()
     {
+        if (!agent.isOnNavMesh)
+            return;
+
         if (Vector3.Distance(transform.position, player.position) <= catchDistance)
         {
             GameManager.Instance.LoseGame();

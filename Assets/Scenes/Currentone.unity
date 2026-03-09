@@ -31746,6 +31746,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 68146745}
     - target: {fileID: 7413079169039048955, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: chaseSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413079169039048955, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: lostSightGraceSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413079169039048955, guid: dff5464741d24374791fd502e509a97c, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
       value: 
       objectReference: {fileID: 1706752919}
@@ -69081,6 +69089,10 @@ PrefabInstance:
     - target: {fileID: 7413079169039048955, guid: dff5464741d24374791fd502e509a97c, type: 3}
       propertyPath: chaseSpeed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413079169039048955, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      propertyPath: lostSightGraceSeconds
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7413079169039048955, guid: dff5464741d24374791fd502e509a97c, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
