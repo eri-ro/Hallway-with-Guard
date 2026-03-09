@@ -4,7 +4,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class GuardAI : MonoBehaviour
 {
-    private enum State {Patrol, Chase, ReturnToPatrol}
+    private enum State {Patrol, Chase, InvestigateAlert, ReturnToPatrol}
 
     private GuardVision vision;
     public Transform player;
@@ -19,6 +19,13 @@ public class GuardAI : MonoBehaviour
     // chase
     public float lostSightGraceSeconds = 1.5f;
     public float catchDistance = 1.5f;
+    // alert
+    public float alertMoveSpeed = 3.5f;
+    public float alertArriveDistance = 0.75f;
+    public float alertWaitTime = 2f;
+
+    private Vector3 alertPosition;
+    private float alertTimer;
 
 
     private NavMeshAgent agent;
@@ -60,11 +67,12 @@ public class GuardAI : MonoBehaviour
             case State.Patrol:
                 UpdatePatrol(seesPlayer);
                 break;
-
             case State.Chase:
                 UpdateChase(seesPlayer);
                 break;
-
+            case State.InvestigateAlert:
+                UpdateInvestigateAlert(seesPlayer);
+                break;
             case State.ReturnToPatrol:
                 UpdateReturnToPatrol(seesPlayer);
                 break;
@@ -161,5 +169,41 @@ public class GuardAI : MonoBehaviour
     private void SetSpeed(float speed)
     {
         agent.speed = speed;
+    }
+
+    public void ReceiveAlert(Vector3 position)
+    {
+        // Don't interrupt an active chase
+        if (state == State.Chase)
+            return;
+
+        alertPosition = position;
+        alertTimer = 0f;
+
+        state = State.InvestigateAlert;
+        agent.speed = alertMoveSpeed;
+        agent.SetDestination(alertPosition);
+    }
+
+    private void UpdateInvestigateAlert(bool seesPlayer)
+    {
+        if (seesPlayer)
+        {
+            EnterChase();
+            return;
+        }
+
+        if (agent.pathPending) return;
+
+        if (agent.remainingDistance <= alertArriveDistance)
+        {
+            alertTimer += Time.deltaTime;
+
+            if (alertTimer >= alertWaitTime)
+            {
+                alertTimer = 0f;
+                EnterReturnToPatrol();
+            }
+        }
     }
 }
