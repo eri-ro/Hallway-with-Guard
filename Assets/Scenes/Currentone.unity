@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 1033545}
   - component: {fileID: 1033547}
   - component: {fileID: 1033546}
+  - component: {fileID: 1033548}
   m_Layer: 0
   m_Name: 2D pole #4
   m_TagString: Untagged
@@ -224,6 +225,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1033548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033544}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.000061035156, y: 0, z: -0.0000076293945}
 --- !u!1001 &3280938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1033,6 +1055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39053135}
   - component: {fileID: 39053136}
+  - component: {fileID: 39053137}
   m_Layer: 0
   m_Name: rope #1 (4)
   m_TagString: Untagged
@@ -1114,6 +1137,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &39053137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39053134}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
 --- !u!1001 &45291729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1218,6 +1262,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4068373912626513877, guid: 16d11e83210630d49b85c6be126f7a30, type: 3}
+--- !u!4 &45661775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7121609905883787238, guid: dff5464741d24374791fd502e509a97c, type: 3}
+  m_PrefabInstance: {fileID: 7979637316087339246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &54448488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1634,6 +1683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59293266}
   - component: {fileID: 59293267}
+  - component: {fileID: 59293268}
   m_Layer: 0
   m_Name: rope #1 (3)
   m_TagString: Untagged
@@ -1715,6 +1765,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &59293268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59293265}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0}
 --- !u!1001 &61777008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1805,6 +1876,7 @@ GameObject:
   - component: {fileID: 68608193}
   - component: {fileID: 68608195}
   - component: {fileID: 68608194}
+  - component: {fileID: 68608196}
   m_Layer: 0
   m_Name: 2D pole #1
   m_TagString: Untagged
@@ -1899,6 +1971,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &68608196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68608192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.0000076293945, y: 0, z: 0}
 --- !u!1 &71337755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,6 +2777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103295735}
   - component: {fileID: 103295736}
+  - component: {fileID: 103295737}
   m_Layer: 0
   m_Name: rope #1 (6)
   m_TagString: Untagged
@@ -2765,6 +2859,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &103295737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103295734}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: -0.0000038146973, z: -0.000015258789}
 --- !u!1 &104130546
 GameObject:
   m_ObjectHideFlags: 0
@@ -2776,6 +2891,7 @@ GameObject:
   - component: {fileID: 104130547}
   - component: {fileID: 104130549}
   - component: {fileID: 104130548}
+  - component: {fileID: 104130550}
   m_Layer: 0
   m_Name: 2D pole #7
   m_TagString: Untagged
@@ -2870,6 +2986,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &104130550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104130546}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &107642367
 GameObject:
   m_ObjectHideFlags: 0
@@ -4577,6 +4714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 132339155}
   - component: {fileID: 132339156}
+  - component: {fileID: 132339157}
   m_Layer: 0
   m_Name: rope #1 (5)
   m_TagString: Untagged
@@ -4658,6 +4796,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &132339157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132339154}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
 --- !u!1001 &133623821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4899,6 +5058,7 @@ GameObject:
   - component: {fileID: 136790175}
   - component: {fileID: 136790177}
   - component: {fileID: 136790176}
+  - component: {fileID: 136790178}
   m_Layer: 0
   m_Name: 2D pole #1 (7)
   m_TagString: Untagged
@@ -4993,6 +5153,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &136790178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136790174}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000019073486, y: 0, z: 0.000061035156}
 --- !u!1 &142183267
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,6 +6069,7 @@ GameObject:
   - component: {fileID: 166411154}
   - component: {fileID: 166411156}
   - component: {fileID: 166411155}
+  - component: {fileID: 166411157}
   m_Layer: 0
   m_Name: 2D pole #1 (11)
   m_TagString: Untagged
@@ -5982,6 +6164,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &166411157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166411153}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: -0.0000019073486}
 --- !u!1 &173491536
 GameObject:
   m_ObjectHideFlags: 0
@@ -7812,6 +8015,7 @@ GameObject:
   - component: {fileID: 215508314}
   - component: {fileID: 215508316}
   - component: {fileID: 215508315}
+  - component: {fileID: 215508317}
   m_Layer: 0
   m_Name: 2D pole #9
   m_TagString: Untagged
@@ -7906,6 +8110,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &215508317
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215508313}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0, z: 0}
 --- !u!1 &222203574
 GameObject:
   m_ObjectHideFlags: 0
@@ -12356,6 +12581,7 @@ GameObject:
   - component: {fileID: 392632030}
   - component: {fileID: 392632032}
   - component: {fileID: 392632031}
+  - component: {fileID: 392632033}
   m_Layer: 0
   m_Name: 2D pole #1 (1)
   m_TagString: Untagged
@@ -12450,6 +12676,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &392632033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392632029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0, z: 0.000061035156}
 --- !u!1001 &396258820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12979,6 +13226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421365054}
   - component: {fileID: 421365055}
+  - component: {fileID: 421365056}
   m_Layer: 0
   m_Name: rope #1 (7)
   m_TagString: Untagged
@@ -13060,6 +13308,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &421365056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421365053}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000014305115, y: -0.0000038146973, z: 0}
 --- !u!1001 &424955464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13546,6 +13815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 436855871}
   - component: {fileID: 436855872}
+  - component: {fileID: 436855873}
   m_Layer: 0
   m_Name: rope #8
   m_TagString: Untagged
@@ -13627,6 +13897,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &436855873
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436855870}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.800001, y: 10.799999, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: -0.0000038146973, z: 0.000015258789}
 --- !u!1 &438464285
 GameObject:
   m_ObjectHideFlags: 0
@@ -13914,6 +14205,7 @@ GameObject:
   - component: {fileID: 453898753}
   - component: {fileID: 453898755}
   - component: {fileID: 453898754}
+  - component: {fileID: 453898756}
   m_Layer: 0
   m_Name: 2D pole #5
   m_TagString: Untagged
@@ -14008,6 +14300,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &453898756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453898752}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: -0.000015258789}
 --- !u!1 &454381017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -14811,6 +15124,120 @@ MonoBehaviour:
   m_FadeFactor: 1
   version: 1
   m_DecalLayerMask: 1
+--- !u!1 &476862784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476862785}
+  - component: {fileID: 476862788}
+  - component: {fileID: 476862787}
+  - component: {fileID: 476862786}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476862785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476862784}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 45661775}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!136 &476862786
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476862784}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &476862787
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476862784}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cd2499b65af867b4dbf917b40786a36e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &476862788
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476862784}
+  m_Mesh: {fileID: -611329518847196402, guid: 7d1740ee13df980448b8ef96303c09b9, type: 3}
 --- !u!1001 &478667673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16838,6 +17265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562677160}
   - component: {fileID: 562677161}
+  - component: {fileID: 562677162}
   m_Layer: 0
   m_Name: rope #1 (3)
   m_TagString: Untagged
@@ -16919,6 +17347,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &562677162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562677159}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: -0.0000038146973, z: 0.000015258789}
 --- !u!1 &563619632
 GameObject:
   m_ObjectHideFlags: 0
@@ -17043,6 +17492,7 @@ GameObject:
   - component: {fileID: 564505037}
   - component: {fileID: 564505039}
   - component: {fileID: 564505038}
+  - component: {fileID: 564505040}
   m_Layer: 0
   m_Name: 2D pole #3
   m_TagString: Untagged
@@ -17137,6 +17587,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &564505040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564505036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: -0.000061035156}
 --- !u!1001 &565132554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17962,6 +18433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605227094}
   - component: {fileID: 605227095}
+  - component: {fileID: 605227096}
   m_Layer: 0
   m_Name: rope #1 (1)
   m_TagString: Untagged
@@ -18043,6 +18515,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &605227096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605227093}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000076293945, y: -0.0000038146973, z: 0}
 --- !u!1 &609071091
 GameObject:
   m_ObjectHideFlags: 0
@@ -18330,6 +18823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 614189360}
   - component: {fileID: 614189361}
+  - component: {fileID: 614189362}
   m_Layer: 0
   m_Name: rope #1 (13)
   m_TagString: Untagged
@@ -18411,6 +18905,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &614189362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614189359}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: -0.0000019073486, z: 0.00000071525574}
 --- !u!1 &615368951 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -19119,6 +19634,7 @@ GameObject:
   - component: {fileID: 640825438}
   - component: {fileID: 640825440}
   - component: {fileID: 640825439}
+  - component: {fileID: 640825441}
   m_Layer: 0
   m_Name: 2D pole #1 (8)
   m_TagString: Untagged
@@ -19213,6 +19729,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &640825441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640825437}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000004172325, y: 0, z: 0}
 --- !u!1001 &642907778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20343,6 +20880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682552288}
   - component: {fileID: 682552289}
+  - component: {fileID: 682552290}
   m_Layer: 0
   m_Name: rope #1 (7)
   m_TagString: Untagged
@@ -20424,6 +20962,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &682552290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682552287}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0.0000014305115, y: -0.0000038146973, z: 0}
 --- !u!1 &683604658 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -22234,6 +22793,7 @@ GameObject:
   - component: {fileID: 770738307}
   - component: {fileID: 770738309}
   - component: {fileID: 770738308}
+  - component: {fileID: 770738310}
   m_Layer: 0
   m_Name: 2D pole #1 (3)
   m_TagString: Untagged
@@ -22328,6 +22888,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &770738310
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770738306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &772685847
 GameObject:
   m_ObjectHideFlags: 0
@@ -22741,6 +23322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 789951887}
   - component: {fileID: 789951888}
+  - component: {fileID: 789951889}
   m_Layer: 0
   m_Name: rope #1 (1)
   m_TagString: Untagged
@@ -22822,6 +23404,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &789951889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789951886}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000076293945, y: -0.0000038146973, z: 0}
 --- !u!1001 &790080794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22899,6 +23502,7 @@ GameObject:
   - component: {fileID: 793506168}
   - component: {fileID: 793506170}
   - component: {fileID: 793506169}
+  - component: {fileID: 793506171}
   m_Layer: 0
   m_Name: 2D pole #1 (2)
   m_TagString: Untagged
@@ -22993,6 +23597,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &793506171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793506167}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &805191442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23194,6 +23819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 806370325}
   - component: {fileID: 806370326}
+  - component: {fileID: 806370327}
   m_Layer: 0
   m_Name: rope #2
   m_TagString: Untagged
@@ -23275,6 +23901,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &806370327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806370324}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0.0000038146973, y: -0.0000038146973, z: 0.000015258789}
 --- !u!1001 &806902758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23572,6 +24219,7 @@ GameObject:
   - component: {fileID: 810961495}
   - component: {fileID: 810961497}
   - component: {fileID: 810961496}
+  - component: {fileID: 810961498}
   m_Layer: 0
   m_Name: 2D pole #1 (13)
   m_TagString: Untagged
@@ -23666,6 +24314,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &810961498
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810961494}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!1001 &814378206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23745,6 +24414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 814864452}
   - component: {fileID: 814864453}
+  - component: {fileID: 814864454}
   m_Layer: 0
   m_Name: rope #1 (8)
   m_TagString: Untagged
@@ -23826,6 +24496,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &814864454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814864451}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000019073486, y: -0.0000038146973, z: 0.000015258789}
 --- !u!1001 &814902780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24074,6 +24765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 821439645}
   - component: {fileID: 821439646}
+  - component: {fileID: 821439647}
   m_Layer: 0
   m_Name: rope #1 (10)
   m_TagString: Untagged
@@ -24155,6 +24847,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &821439647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821439644}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.800001, y: 10.799999, z: 0.2}
+  m_Center: {x: 0.000030517578, y: -0.0000038146973, z: 0.0000014305115}
 --- !u!1001 &822502531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24232,6 +24945,7 @@ GameObject:
   - component: {fileID: 826610189}
   - component: {fileID: 826610191}
   - component: {fileID: 826610190}
+  - component: {fileID: 826610192}
   m_Layer: 0
   m_Name: 2D pole #1 (12)
   m_TagString: Untagged
@@ -24326,6 +25040,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &826610192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826610188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0.0000019073486}
 --- !u!4 &827480781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
@@ -25115,6 +25850,7 @@ GameObject:
   - component: {fileID: 853630646}
   - component: {fileID: 853630648}
   - component: {fileID: 853630647}
+  - component: {fileID: 853630649}
   m_Layer: 0
   m_Name: 2D pole #1 (5)
   m_TagString: Untagged
@@ -25209,6 +25945,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &853630649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853630645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &855633481
 GameObject:
   m_ObjectHideFlags: 0
@@ -25871,6 +26628,7 @@ GameObject:
   - component: {fileID: 885696499}
   - component: {fileID: 885696501}
   - component: {fileID: 885696500}
+  - component: {fileID: 885696502}
   m_Layer: 0
   m_Name: 2D pole #1 (8)
   m_TagString: Untagged
@@ -25965,6 +26723,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &885696502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885696498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000034570694, y: 0, z: -0.000061035156}
 --- !u!1001 &890762013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26122,6 +26901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 892927655}
   - component: {fileID: 892927656}
+  - component: {fileID: 892927657}
   m_Layer: 0
   m_Name: rope #6
   m_TagString: Untagged
@@ -26203,6 +26983,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &892927657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892927654}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.000061035156, y: -0.0000038146973, z: 0}
 --- !u!1001 &893010761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27177,6 +27978,7 @@ GameObject:
   - component: {fileID: 938839429}
   - component: {fileID: 938839431}
   - component: {fileID: 938839430}
+  - component: {fileID: 938839432}
   m_Layer: 0
   m_Name: 2D pole #8
   m_TagString: Untagged
@@ -27271,6 +28073,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &938839432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938839428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0, z: -0.000061035156}
 --- !u!1 &939820711
 GameObject:
   m_ObjectHideFlags: 0
@@ -27282,6 +28105,7 @@ GameObject:
   - component: {fileID: 939820712}
   - component: {fileID: 939820714}
   - component: {fileID: 939820713}
+  - component: {fileID: 939820715}
   m_Layer: 0
   m_Name: 2D pole #1 (2)
   m_TagString: Untagged
@@ -27376,6 +28200,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &939820715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939820711}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0, z: 0}
 --- !u!1001 &940553601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28325,6 +29170,7 @@ GameObject:
   - component: {fileID: 969359208}
   - component: {fileID: 969359210}
   - component: {fileID: 969359209}
+  - component: {fileID: 969359211}
   m_Layer: 0
   m_Name: 2D pole #1 (1)
   m_TagString: Untagged
@@ -28419,6 +29265,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &969359211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969359207}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0.000061035156}
 --- !u!1 &973412162
 GameObject:
   m_ObjectHideFlags: 0
@@ -29180,6 +30047,7 @@ GameObject:
   - component: {fileID: 996324493}
   - component: {fileID: 996324495}
   - component: {fileID: 996324494}
+  - component: {fileID: 996324496}
   m_Layer: 0
   m_Name: 2D pole #1 (7)
   m_TagString: Untagged
@@ -29274,6 +30142,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &996324496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996324492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.0000019073486, y: 0, z: 0}
 --- !u!1001 &996474870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30379,6 +31268,7 @@ GameObject:
   - component: {fileID: 1026006205}
   - component: {fileID: 1026006207}
   - component: {fileID: 1026006206}
+  - component: {fileID: 1026006208}
   m_Layer: 0
   m_Name: 2D pole #1 (5)
   m_TagString: Untagged
@@ -30473,6 +31363,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1026006208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026006204}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000038146973, y: 0, z: 0}
 --- !u!1 &1027401554
 GameObject:
   m_ObjectHideFlags: 0
@@ -30484,6 +31395,7 @@ GameObject:
   - component: {fileID: 1027401555}
   - component: {fileID: 1027401557}
   - component: {fileID: 1027401556}
+  - component: {fileID: 1027401558}
   m_Layer: 0
   m_Name: 2D pole #1 (10)
   m_TagString: Untagged
@@ -30578,6 +31490,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1027401558
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027401554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0.0000019073486}
 --- !u!1 &1027402702
 GameObject:
   m_ObjectHideFlags: 0
@@ -30588,6 +31521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027402703}
   - component: {fileID: 1027402704}
+  - component: {fileID: 1027402705}
   m_Layer: 0
   m_Name: rope #4
   m_TagString: Untagged
@@ -30669,6 +31603,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1027402705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027402702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.000061035156, y: -0.0000038146973, z: 0}
 --- !u!1001 &1031434376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31120,6 +32075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039345541}
   - component: {fileID: 1039345542}
+  - component: {fileID: 1039345543}
   m_Layer: 0
   m_Name: rope #1 (15)
   m_TagString: Untagged
@@ -31201,6 +32157,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1039345543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039345540}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.800001, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000019073486, z: 0.0000009536743}
 --- !u!1001 &1040031216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33014,6 +33991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1118775082}
   - component: {fileID: 1118775083}
+  - component: {fileID: 1118775084}
   m_Layer: 0
   m_Name: rope #3
   m_TagString: Untagged
@@ -33095,6 +34073,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1118775084
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118775081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.000061035156, y: -0.0000038146973, z: 0.0000019073486}
 --- !u!1001 &1123167644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36974,6 +37973,7 @@ GameObject:
   - component: {fileID: 1256081693}
   - component: {fileID: 1256081695}
   - component: {fileID: 1256081694}
+  - component: {fileID: 1256081696}
   m_Layer: 0
   m_Name: 2D pole #1 (15)
   m_TagString: Untagged
@@ -37068,6 +38068,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1256081696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256081692}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: -0.0000038146973}
 --- !u!1 &1264176127
 GameObject:
   m_ObjectHideFlags: 0
@@ -41176,6 +42197,7 @@ GameObject:
   - component: {fileID: 1420863331}
   - component: {fileID: 1420863333}
   - component: {fileID: 1420863332}
+  - component: {fileID: 1420863334}
   m_Layer: 0
   m_Name: 2D pole #6
   m_TagString: Untagged
@@ -41270,6 +42292,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1420863334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420863330}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: -0.0000076293945}
 --- !u!4 &1422178253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 67514c169e17e60429fdf73f2eeabd0c, type: 3}
@@ -41285,6 +42328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422431855}
   - component: {fileID: 1422431856}
+  - component: {fileID: 1422431857}
   m_Layer: 0
   m_Name: rope #1 (4)
   m_TagString: Untagged
@@ -41366,6 +42410,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1422431857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422431854}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0}
 --- !u!1001 &1422748893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42293,6 +43358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449170625}
   - component: {fileID: 1449170626}
+  - component: {fileID: 1449170627}
   m_Layer: 0
   m_Name: rope #1
   m_TagString: Untagged
@@ -42374,6 +43440,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1449170627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449170624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
 --- !u!1001 &1451213301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44557,6 +45644,7 @@ GameObject:
   - component: {fileID: 1520836716}
   - component: {fileID: 1520836718}
   - component: {fileID: 1520836717}
+  - component: {fileID: 1520836719}
   m_Layer: 0
   m_Name: 2D pole #1 (14)
   m_TagString: Untagged
@@ -44651,6 +45739,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1520836719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520836715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0.0000019073486}
 --- !u!1001 &1521027977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44827,6 +45936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527081989}
   - component: {fileID: 1527081990}
+  - component: {fileID: 1527081991}
   m_Layer: 0
   m_Name: rope #1 (9)
   m_TagString: Untagged
@@ -44908,6 +46018,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1527081991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527081988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.800001, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0.0000011920929}
 --- !u!1001 &1527797742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45369,6 +46500,7 @@ GameObject:
   - component: {fileID: 1538510475}
   - component: {fileID: 1538510477}
   - component: {fileID: 1538510476}
+  - component: {fileID: 1538510478}
   m_Layer: 0
   m_Name: 2D pole #1 (9)
   m_TagString: Untagged
@@ -45463,6 +46595,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1538510478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538510474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000038146973, y: 0, z: -0.000061035156}
 --- !u!1001 &1539250033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45950,6 +47103,7 @@ GameObject:
   - component: {fileID: 1546869214}
   - component: {fileID: 1546869216}
   - component: {fileID: 1546869215}
+  - component: {fileID: 1546869217}
   m_Layer: 0
   m_Name: 2D pole #1 (4)
   m_TagString: Untagged
@@ -46044,6 +47198,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1546869217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546869213}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1548001379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46996,6 +48171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1571403829}
   - component: {fileID: 1571403830}
+  - component: {fileID: 1571403831}
   m_Layer: 0
   m_Name: rope #1 (12)
   m_TagString: Untagged
@@ -47077,6 +48253,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1571403831
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571403828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0}
 --- !u!1001 &1573917834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48637,6 +49834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620389140}
   - component: {fileID: 1620389141}
+  - component: {fileID: 1620389142}
   m_Layer: 0
   m_Name: rope #1 (14)
   m_TagString: Untagged
@@ -48718,6 +49916,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1620389142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620389139}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.19999999}
+  m_Center: {x: -0.000030517578, y: -0.0000038146973, z: 0.0000009536743}
 --- !u!1001 &1625983492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48798,6 +50017,7 @@ GameObject:
   - component: {fileID: 1631503046}
   - component: {fileID: 1631503048}
   - component: {fileID: 1631503047}
+  - component: {fileID: 1631503049}
   m_Layer: 0
   m_Name: 2D pole #1 (6)
   m_TagString: Untagged
@@ -48892,6 +50112,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1631503049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631503045}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0}
 --- !u!1 &1634464876
 GameObject:
   m_ObjectHideFlags: 0
@@ -49345,6 +50586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653046898}
   - component: {fileID: 1653046899}
+  - component: {fileID: 1653046900}
   m_Layer: 0
   m_Name: rope #1 (2)
   m_TagString: Untagged
@@ -49426,6 +50668,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1653046900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653046897}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: -0.0000038146973, z: 0.0000076293945}
 --- !u!1 &1653805881
 GameObject:
   m_ObjectHideFlags: 0
@@ -49437,6 +50700,7 @@ GameObject:
   - component: {fileID: 1653805882}
   - component: {fileID: 1653805884}
   - component: {fileID: 1653805883}
+  - component: {fileID: 1653805885}
   m_Layer: 0
   m_Name: 2D pole #1 (9)
   m_TagString: Untagged
@@ -49531,6 +50795,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1653805885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653805881}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: -0.000061035156}
 --- !u!1001 &1654680456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49983,6 +51268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670619112}
   - component: {fileID: 1670619113}
+  - component: {fileID: 1670619114}
   m_Layer: 0
   m_Name: rope #7
   m_TagString: Untagged
@@ -50064,6 +51350,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1670619114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670619111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0.0000038146973, y: -0.0000038146973, z: 0}
 --- !u!1 &1673257480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -51859,6 +53166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722885371}
   - component: {fileID: 1722885372}
+  - component: {fileID: 1722885373}
   m_Layer: 0
   m_Name: rope #1 (2)
   m_TagString: Untagged
@@ -51940,6 +53248,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1722885373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722885370}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: -0.0000038146973, z: 0}
 --- !u!1 &1731663511
 GameObject:
   m_ObjectHideFlags: 0
@@ -52901,6 +54230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1757530877}
   - component: {fileID: 1757530878}
+  - component: {fileID: 1757530879}
   m_Layer: 0
   m_Name: rope #5
   m_TagString: Untagged
@@ -52982,6 +54312,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1757530879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757530876}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.000061035156, y: -0.0000038146973, z: 0.0000019073486}
 --- !u!1001 &1758041143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54110,6 +55461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789200570}
   - component: {fileID: 1789200571}
+  - component: {fileID: 1789200572}
   m_Layer: 0
   m_Name: rope #1 (5)
   m_TagString: Untagged
@@ -54191,6 +55543,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1789200572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789200569}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: -0.0000038146973, y: -0.0000038146973, z: 0}
 --- !u!1 &1792431504
 GameObject:
   m_ObjectHideFlags: 0
@@ -56103,6 +57476,7 @@ GameObject:
   - component: {fileID: 1847775606}
   - component: {fileID: 1847775608}
   - component: {fileID: 1847775607}
+  - component: {fileID: 1847775609}
   m_Layer: 0
   m_Name: 2D pole #1 (3)
   m_TagString: Untagged
@@ -56197,6 +57571,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1847775609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847775605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0, z: 0}
 --- !u!1 &1851470192
 GameObject:
   m_ObjectHideFlags: 0
@@ -57406,6 +58801,7 @@ GameObject:
   - component: {fileID: 1895797038}
   - component: {fileID: 1895797040}
   - component: {fileID: 1895797039}
+  - component: {fileID: 1895797041}
   m_Layer: 0
   m_Name: 2D pole #2
   m_TagString: Untagged
@@ -57500,6 +58896,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1895797041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895797037}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1897440740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59248,6 +60665,7 @@ GameObject:
   - component: {fileID: 1952257167}
   - component: {fileID: 1952257169}
   - component: {fileID: 1952257168}
+  - component: {fileID: 1952257170}
   m_Layer: 0
   m_Name: 2D pole #1 (4)
   m_TagString: Untagged
@@ -59342,6 +60760,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &1952257170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952257166}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1952534807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -61545,6 +62984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012639845}
   - component: {fileID: 2012639846}
+  - component: {fileID: 2012639847}
   m_Layer: 0
   m_Name: rope #1 (6)
   m_TagString: Untagged
@@ -61626,6 +63066,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &2012639847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012639844}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0}
 --- !u!1 &2013772096
 GameObject:
   m_ObjectHideFlags: 0
@@ -61782,6 +63243,7 @@ GameObject:
   - component: {fileID: 2015746733}
   - component: {fileID: 2015746735}
   - component: {fileID: 2015746734}
+  - component: {fileID: 2015746736}
   m_Layer: 0
   m_Name: 2D pole #1 (6)
   m_TagString: Untagged
@@ -61876,6 +63338,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!65 &2015746736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015746732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0.000061035156}
 --- !u!1 &2018966333 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -62226,6 +63709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042788611}
   - component: {fileID: 2042788612}
+  - component: {fileID: 2042788613}
   m_Layer: 0
   m_Name: rope #1 (11)
   m_TagString: Untagged
@@ -62307,6 +63791,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &2042788613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042788610}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.800001, y: 10.799999, z: 0.2}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0}
 --- !u!1 &2048613104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4008978217549025196, guid: 483da598022e3874a8e95abb64ad389a, type: 3}
@@ -63989,6 +65494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115538860}
   - component: {fileID: 2115538861}
+  - component: {fileID: 2115538862}
   m_Layer: 0
   m_Name: rope #1 (8)
   m_TagString: Untagged
@@ -64070,6 +65576,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &2115538862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115538859}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.2}
+  m_Center: {x: 0.00000047683716, y: -0.0000038146973, z: 0.0000076293945}
 --- !u!1001 &2116638383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65497,9 +67024,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6324434295002859880, guid: dff5464741d24374791fd502e509a97c, type: 3}
+    - {fileID: 7799602430055655272, guid: dff5464741d24374791fd502e509a97c, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7121609905883787238, guid: dff5464741d24374791fd502e509a97c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 476862785}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dff5464741d24374791fd502e509a97c, type: 3}
 --- !u!1001 &8463258153880287638
