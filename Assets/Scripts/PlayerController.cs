@@ -75,6 +75,8 @@ public class PlayerController : MonoBehaviour
             GameManager.Instance.TogglePause();
         }
 
+        if (Time.timeScale == 0f) return;
+
         Crouch();
         Look();
         Move();

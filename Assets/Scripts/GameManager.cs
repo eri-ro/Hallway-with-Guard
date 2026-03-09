@@ -81,11 +81,17 @@ public class GameManager : MonoBehaviour
         {
             pauseImage.SetActive(true);
             Time.timeScale = 0f;
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
         else
         {
             pauseImage.SetActive(false);
             Time.timeScale = 1f;
+
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
     public void ShowMessage(string message, float duration = 2f)
