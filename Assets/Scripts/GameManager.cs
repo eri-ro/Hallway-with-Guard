@@ -48,16 +48,18 @@ public class GameManager : MonoBehaviour
     public void OnArtifactCollected()
     {
         hasArtifact = true;
-        ShowMessage("Crown collected! Escape the way you came in.");
+        ShowMessage("Crown Box collected! Escape the way you came in.");
     }
 
     public void WinGame()
     {
         gameOver = true;
-        ShowMessage("You escaped with the crown!", 2f);
+        ShowMessage("You escaped with the Crown Box!", 2f);
 
-        // Restart game
-        Invoke(nameof(RestartScene), 2f);
+        Time.timeScale = 2f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("WinScreen");
     }
 
     public void LoseGame()
@@ -65,8 +67,10 @@ public class GameManager : MonoBehaviour
         gameOver = true;
         ShowMessage("You've been CAUGHT!");
 
-        // Restart game
-        Invoke(nameof(RestartScene), 2f);
+        Time.timeScale = 2f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("GameOver");
     }
 
     private void RestartScene()
