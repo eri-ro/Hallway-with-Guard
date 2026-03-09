@@ -9,22 +9,32 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform cameraTransform;
 
     [Header("Movement")]
-    [SerializeField] private float speed = 4.5f;
-    [SerializeField] private float gravity = -20f;
+    [SerializeField] private float walkSpeed = 6f;
+    [SerializeField] private float crouchSpeed = 4f;
 
     [Header("Look")]
-    [SerializeField] private float mouseSensitivity = 2f;
+    [SerializeField] private float mouseSensitivity = .1f;
     [SerializeField] private float controllerSensitivity = 120f;
     [SerializeField] private float minPitch = -80f;
     [SerializeField] private float maxPitch = 80f;
+
+    [Header("Crouch")]
+    [SerializeField] private float standingHeight = 2f;
+    [SerializeField] private float crouchingHeight = 1.2f;
+    [SerializeField] private float standingCameraY = 1.6f;
+    [SerializeField] private float crouchingCameraY = 1.0f;
+    [SerializeField] private float crouchTransitionSpeed = 10f;
+    [SerializeField] private LayerMask ceilingMask;
 
     private CharacterController controller;
     private PlayerInput playerInput;
     private InputAction moveAction;
     private InputAction lookAction;
+    private InputAction crouchAction;
 
     private float pitch;
     private float verticalVelocity;
+    private bool isCrouching;
 
     private void Awake()
     {
@@ -33,9 +43,11 @@ public class PlayerController : MonoBehaviour
 
         moveAction = playerInput.actions["Move"];
         lookAction = playerInput.actions["Look"];
+        crouchAction = playerInput.actions["Crouch"];
 
-        if (cameraTransform == null)
-            cameraTransform = GetComponentInChildren<Camera>()?.transform;
+        cameraTransform = GetComponentInChildren<Camera>()?.transform;
+
+        standingHeight = controller.height;
     }
 
     void Update()
@@ -52,9 +64,10 @@ public class PlayerController : MonoBehaviour
             Cursor.visible = false;
         }
 
+        Crouch();
         Look();
         Move();
-}
+    }
 
     private void Look()
     {
@@ -92,10 +105,51 @@ public class PlayerController : MonoBehaviour
 
         Vector3 move = (transform.right * moveInput.x + transform.forward * moveInput.y);
         move = Vector3.ClampMagnitude(move, 1f);
-       
-        Vector3 velocity = move * speed;
+
+        float currentSpeed = isCrouching ? crouchSpeed : walkSpeed;
+
+        Vector3 velocity = move * currentSpeed;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    private void Crouch()
+    {
+        bool crouchHeld = crouchAction != null && crouchAction.IsPressed();
+
+        if (crouchHeld)
+        {
+            isCrouching = true;
+        }
+        else
+        {
+            // Only stand up if there is room
+            if (!IsBlockedAbove())
+                isCrouching = false;
+        }
+
+        float targetHeight = isCrouching ? crouchingHeight : standingHeight;
+        float targetCameraY = isCrouching ? crouchingCameraY : standingCameraY;
+
+        controller.height = Mathf.Lerp(controller.height, targetHeight, Time.deltaTime * crouchTransitionSpeed);
+
+        Vector3 center = controller.center;
+        center.y = controller.height * 0.5f;
+        controller.center = center;
+
+        Vector3 camPos = cameraTransform.localPosition;
+        camPos.y = Mathf.Lerp(camPos.y, targetCameraY, Time.deltaTime * crouchTransitionSpeed);
+        cameraTransform.localPosition = camPos;
+    }
+
+    private bool IsBlockedAbove()
+    {
+        float radius = controller.radius * 0.95f;
+        float checkDistance = standingHeight - controller.height;
+
+        Vector3 origin = transform.position + Vector3.up * controller.height;
+
+        return Physics.SphereCast(origin, radius, Vector3.up, out _, checkDistance, ceilingMask);
     }
 
     void OnEnable()

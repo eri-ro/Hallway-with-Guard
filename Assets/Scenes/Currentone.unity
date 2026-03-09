@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 1033547}
   - component: {fileID: 1033546}
   - component: {fileID: 1033548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 39053135}
   - component: {fileID: 39053136}
   - component: {fileID: 39053137}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1267,6 +1267,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7121609905883787238, guid: dff5464741d24374791fd502e509a97c, type: 3}
   m_PrefabInstance: {fileID: 7979637316087339246}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &51059601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4080071063709472323, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &51059603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51059601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &51059604
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51059601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &54448488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1684,7 +1731,7 @@ GameObject:
   - component: {fileID: 59293266}
   - component: {fileID: 59293267}
   - component: {fileID: 59293268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1877,7 +1924,7 @@ GameObject:
   - component: {fileID: 68608195}
   - component: {fileID: 68608194}
   - component: {fileID: 68608196}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2778,7 +2825,7 @@ GameObject:
   - component: {fileID: 103295735}
   - component: {fileID: 103295736}
   - component: {fileID: 103295737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2892,7 +2939,7 @@ GameObject:
   - component: {fileID: 104130549}
   - component: {fileID: 104130548}
   - component: {fileID: 104130550}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4715,7 +4762,7 @@ GameObject:
   - component: {fileID: 132339155}
   - component: {fileID: 132339156}
   - component: {fileID: 132339157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5059,7 +5106,7 @@ GameObject:
   - component: {fileID: 136790177}
   - component: {fileID: 136790176}
   - component: {fileID: 136790178}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6070,7 +6117,7 @@ GameObject:
   - component: {fileID: 166411156}
   - component: {fileID: 166411155}
   - component: {fileID: 166411157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6185,6 +6232,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.8, y: 10.8, z: 0.2}
   m_Center: {x: -0.000061035156, y: 0, z: -0.0000019073486}
+--- !u!1 &171924094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 975555291455869980, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &171924098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171924094}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.19999999}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0.000030517578}
 --- !u!1 &173491536
 GameObject:
   m_ObjectHideFlags: 0
@@ -8016,7 +8089,7 @@ GameObject:
   - component: {fileID: 215508316}
   - component: {fileID: 215508315}
   - component: {fileID: 215508317}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9281,6 +9354,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
   m_PrefabInstance: {fileID: 1472737312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &258028983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7915155726403030549, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &258028987
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258028983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.19999999}
+  m_Center: {x: -0.000005722046, y: 0, z: 0.000061035156}
 --- !u!1001 &259907903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12120,6 +12219,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4068373912626513877, guid: 16d11e83210630d49b85c6be126f7a30, type: 3}
+--- !u!1 &377492574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1596726229756704996, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &377492578
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377492574}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.19999999}
+  m_Center: {x: 0, y: 0, z: 0.000061035156}
 --- !u!1 &378615521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1552536990464885380, guid: aab2a2f2af8e6e94eac5d4f0cbdaabf4, type: 3}
@@ -12582,7 +12707,7 @@ GameObject:
   - component: {fileID: 392632032}
   - component: {fileID: 392632031}
   - component: {fileID: 392632033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13227,7 +13352,7 @@ GameObject:
   - component: {fileID: 421365054}
   - component: {fileID: 421365055}
   - component: {fileID: 421365056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13816,7 +13941,7 @@ GameObject:
   - component: {fileID: 436855871}
   - component: {fileID: 436855872}
   - component: {fileID: 436855873}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14206,7 +14331,7 @@ GameObject:
   - component: {fileID: 453898755}
   - component: {fileID: 453898754}
   - component: {fileID: 453898756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17250,6 +17375,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
   m_PrefabInstance: {fileID: 556811532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &557609588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8141235711094884211, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &557609591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557609588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.8, y: 10.799999, z: 0.19999999}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0.000015258789}
 --- !u!1 &562058826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
@@ -17266,7 +17417,7 @@ GameObject:
   - component: {fileID: 562677160}
   - component: {fileID: 562677161}
   - component: {fileID: 562677162}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17493,7 +17644,7 @@ GameObject:
   - component: {fileID: 564505039}
   - component: {fileID: 564505038}
   - component: {fileID: 564505040}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18434,7 +18585,7 @@ GameObject:
   - component: {fileID: 605227094}
   - component: {fileID: 605227095}
   - component: {fileID: 605227096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18855,7 +19006,7 @@ GameObject:
   - component: {fileID: 614189360}
   - component: {fileID: 614189361}
   - component: {fileID: 614189362}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19666,7 +19817,7 @@ GameObject:
   - component: {fileID: 640825440}
   - component: {fileID: 640825439}
   - component: {fileID: 640825441}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19953,6 +20104,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
   m_PrefabInstance: {fileID: 1611963514}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &659597498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9107652513718494418, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &659597500
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659597498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &659649334
 GameObject:
   m_ObjectHideFlags: 0
@@ -20912,7 +21089,7 @@ GameObject:
   - component: {fileID: 682552288}
   - component: {fileID: 682552289}
   - component: {fileID: 682552290}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22825,7 +23002,7 @@ GameObject:
   - component: {fileID: 770738309}
   - component: {fileID: 770738308}
   - component: {fileID: 770738310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23354,7 +23531,7 @@ GameObject:
   - component: {fileID: 789951887}
   - component: {fileID: 789951888}
   - component: {fileID: 789951889}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23534,7 +23711,7 @@ GameObject:
   - component: {fileID: 793506170}
   - component: {fileID: 793506169}
   - component: {fileID: 793506171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23884,7 +24061,7 @@ GameObject:
   - component: {fileID: 806370325}
   - component: {fileID: 806370326}
   - component: {fileID: 806370327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24284,7 +24461,7 @@ GameObject:
   - component: {fileID: 810961497}
   - component: {fileID: 810961496}
   - component: {fileID: 810961498}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24479,7 +24656,7 @@ GameObject:
   - component: {fileID: 814864452}
   - component: {fileID: 814864453}
   - component: {fileID: 814864454}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24830,7 +25007,7 @@ GameObject:
   - component: {fileID: 821439645}
   - component: {fileID: 821439646}
   - component: {fileID: 821439647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25010,7 +25187,7 @@ GameObject:
   - component: {fileID: 826610191}
   - component: {fileID: 826610190}
   - component: {fileID: 826610192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25583,6 +25760,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &842460603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3429574259707379083, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &842460606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842460603}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.800001, y: 10.799999, z: 0.19999999}
+  m_Center: {x: 0, y: 0, z: -0.00000047683716}
 --- !u!1001 &844320217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25915,7 +26118,7 @@ GameObject:
   - component: {fileID: 853630648}
   - component: {fileID: 853630647}
   - component: {fileID: 853630649}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26693,7 +26896,7 @@ GameObject:
   - component: {fileID: 885696501}
   - component: {fileID: 885696500}
   - component: {fileID: 885696502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26966,7 +27169,7 @@ GameObject:
   - component: {fileID: 892927655}
   - component: {fileID: 892927656}
   - component: {fileID: 892927657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28043,7 +28246,7 @@ GameObject:
   - component: {fileID: 938839431}
   - component: {fileID: 938839430}
   - component: {fileID: 938839432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28170,7 +28373,7 @@ GameObject:
   - component: {fileID: 939820714}
   - component: {fileID: 939820713}
   - component: {fileID: 939820715}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29235,7 +29438,7 @@ GameObject:
   - component: {fileID: 969359210}
   - component: {fileID: 969359209}
   - component: {fileID: 969359211}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30112,7 +30315,7 @@ GameObject:
   - component: {fileID: 996324495}
   - component: {fileID: 996324494}
   - component: {fileID: 996324496}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31480,7 +31683,7 @@ GameObject:
   - component: {fileID: 1026006207}
   - component: {fileID: 1026006206}
   - component: {fileID: 1026006208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31607,7 +31810,7 @@ GameObject:
   - component: {fileID: 1027401557}
   - component: {fileID: 1027401556}
   - component: {fileID: 1027401558}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31733,7 +31936,7 @@ GameObject:
   - component: {fileID: 1027402703}
   - component: {fileID: 1027402704}
   - component: {fileID: 1027402705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32287,7 +32490,7 @@ GameObject:
   - component: {fileID: 1039345541}
   - component: {fileID: 1039345542}
   - component: {fileID: 1039345543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34203,7 +34406,7 @@ GameObject:
   - component: {fileID: 1118775082}
   - component: {fileID: 1118775083}
   - component: {fileID: 1118775084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38185,7 +38388,7 @@ GameObject:
   - component: {fileID: 1256081695}
   - component: {fileID: 1256081694}
   - component: {fileID: 1256081696}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39314,6 +39517,32 @@ MonoBehaviour:
   m_FadeFactor: 1
   version: 1
   m_DecalLayerMask: 1
+--- !u!1 &1292651005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2702103491731536608, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1292651009
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292651005}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.19999999}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0.000030517578}
 --- !u!1001 &1298162966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42409,7 +42638,7 @@ GameObject:
   - component: {fileID: 1420863333}
   - component: {fileID: 1420863332}
   - component: {fileID: 1420863334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42540,7 +42769,7 @@ GameObject:
   - component: {fileID: 1422431855}
   - component: {fileID: 1422431856}
   - component: {fileID: 1422431857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43570,7 +43799,7 @@ GameObject:
   - component: {fileID: 1449170625}
   - component: {fileID: 1449170626}
   - component: {fileID: 1449170627}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45856,7 +46085,7 @@ GameObject:
   - component: {fileID: 1520836718}
   - component: {fileID: 1520836717}
   - component: {fileID: 1520836719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46148,7 +46377,7 @@ GameObject:
   - component: {fileID: 1527081989}
   - component: {fileID: 1527081990}
   - component: {fileID: 1527081991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46712,7 +46941,7 @@ GameObject:
   - component: {fileID: 1538510477}
   - component: {fileID: 1538510476}
   - component: {fileID: 1538510478}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47315,7 +47544,7 @@ GameObject:
   - component: {fileID: 1546869216}
   - component: {fileID: 1546869215}
   - component: {fileID: 1546869217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48383,7 +48612,7 @@ GameObject:
   - component: {fileID: 1571403829}
   - component: {fileID: 1571403830}
   - component: {fileID: 1571403831}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48912,6 +49141,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4068373912626513877, guid: 35cedb4aa3fe50c4d84f6bdc4b91cf2e, type: 3}
+--- !u!1 &1583017202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8212502340491780618, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+  m_PrefabInstance: {fileID: 8463258153880287638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1583017205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583017202}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.799999, y: 10.799999, z: 0.19999999}
+  m_Center: {x: -0.000061035156, y: 0, z: -0.00000023841858}
 --- !u!1 &1586447619
 GameObject:
   m_ObjectHideFlags: 0
@@ -50046,7 +50301,7 @@ GameObject:
   - component: {fileID: 1620389140}
   - component: {fileID: 1620389141}
   - component: {fileID: 1620389142}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50229,7 +50484,7 @@ GameObject:
   - component: {fileID: 1631503048}
   - component: {fileID: 1631503047}
   - component: {fileID: 1631503049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50798,7 +51053,7 @@ GameObject:
   - component: {fileID: 1653046898}
   - component: {fileID: 1653046899}
   - component: {fileID: 1653046900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50912,7 +51167,7 @@ GameObject:
   - component: {fileID: 1653805884}
   - component: {fileID: 1653805883}
   - component: {fileID: 1653805885}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51480,7 +51735,7 @@ GameObject:
   - component: {fileID: 1670619112}
   - component: {fileID: 1670619113}
   - component: {fileID: 1670619114}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53409,7 +53664,7 @@ GameObject:
   - component: {fileID: 1722885371}
   - component: {fileID: 1722885372}
   - component: {fileID: 1722885373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54587,7 +54842,7 @@ GameObject:
   - component: {fileID: 1757530877}
   - component: {fileID: 1757530878}
   - component: {fileID: 1757530879}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55818,7 +56073,7 @@ GameObject:
   - component: {fileID: 1789200570}
   - component: {fileID: 1789200571}
   - component: {fileID: 1789200572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57833,7 +58088,7 @@ GameObject:
   - component: {fileID: 1847775608}
   - component: {fileID: 1847775607}
   - component: {fileID: 1847775609}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59158,7 +59413,7 @@ GameObject:
   - component: {fileID: 1895797040}
   - component: {fileID: 1895797039}
   - component: {fileID: 1895797041}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61022,7 +61277,7 @@ GameObject:
   - component: {fileID: 1952257169}
   - component: {fileID: 1952257168}
   - component: {fileID: 1952257170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63341,7 +63596,7 @@ GameObject:
   - component: {fileID: 2012639845}
   - component: {fileID: 2012639846}
   - component: {fileID: 2012639847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63600,7 +63855,7 @@ GameObject:
   - component: {fileID: 2015746735}
   - component: {fileID: 2015746734}
   - component: {fileID: 2015746736}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 2D pole #1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64066,7 +64321,7 @@ GameObject:
   - component: {fileID: 2042788611}
   - component: {fileID: 2042788612}
   - component: {fileID: 2042788613}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65851,7 +66106,7 @@ GameObject:
   - component: {fileID: 2115538860}
   - component: {fileID: 2115538861}
   - component: {fileID: 2115538862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rope #1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67398,10 +67653,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 975555291455869980, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1166515527274515879, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
       propertyPath: _mainCamera
       value: 
       objectReference: {fileID: 267872179}
+    - target: {fileID: 1360680046100228400, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596726229756704996, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1746088845584247509, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4243
@@ -67458,22 +67725,89 @@ PrefabInstance:
       propertyPath: _mainCamera
       value: 
       objectReference: {fileID: 267872179}
+    - target: {fileID: 2702103491731536608, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3289671061982023715, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
       propertyPath: _mainCamera
       value: 
       objectReference: {fileID: 267872179}
+    - target: {fileID: 3429574259707379083, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080071063709472323, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4150109715750631640, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
       propertyPath: _mainCamera
       value: 
       objectReference: {fileID: 267872179}
+    - target: {fileID: 6174987458574930090, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887439795896295814, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915155726403030549, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141235711094884211, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212502340491780618, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 9107652513718494418, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
       propertyPath: m_Name
       value: Crayon Display
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9107652513718494418, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4561296065505149438, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9107652513718494418, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 659597500}
+    - targetCorrespondingSourceObject: {fileID: 1596726229756704996, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 377492578}
+    - targetCorrespondingSourceObject: {fileID: 2702103491731536608, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1292651009}
+    - targetCorrespondingSourceObject: {fileID: 7915155726403030549, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 258028987}
+    - targetCorrespondingSourceObject: {fileID: 975555291455869980, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 171924098}
+    - targetCorrespondingSourceObject: {fileID: 4080071063709472323, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 51059603}
+    - targetCorrespondingSourceObject: {fileID: 4080071063709472323, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 51059604}
+    - targetCorrespondingSourceObject: {fileID: 8141235711094884211, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 557609591}
+    - targetCorrespondingSourceObject: {fileID: 3429574259707379083, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 842460606}
+    - targetCorrespondingSourceObject: {fileID: 8212502340491780618, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1583017205}
   m_SourcePrefab: {fileID: 100100000, guid: 84e469c8fafdea54281f3a200a7fbd5f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
