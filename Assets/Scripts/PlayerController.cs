@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private InputAction moveAction;
     private InputAction lookAction;
     private InputAction crouchAction;
+    private InputAction pause;
 
     private float pitch;
     private float verticalVelocity;
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour
         moveAction = playerInput.actions["Move"];
         lookAction = playerInput.actions["Look"];
         crouchAction = playerInput.actions["Crouch"];
+        pause = playerInput.actions["Pause"];
 
         cameraTransform = GetComponentInChildren<Camera>()?.transform;
 
@@ -66,6 +68,11 @@ public class PlayerController : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+        }
+
+        if (pause.WasPressedThisFrame() && GameManager.Instance.gameOver == false)
+        {
+            GameManager.Instance.TogglePause();
         }
 
         Crouch();

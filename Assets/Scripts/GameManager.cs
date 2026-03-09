@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,17 +11,23 @@ public class GameManager : MonoBehaviour
     private float messageTimer;
     private bool messageActive;
 
+    private bool gamePaused;
+    public GameObject pauseImage;
+
+
     public bool hasArtifact;
     public bool gameOver;
 
     void Awake()
     {
-        Instance = this;    
+        Instance = this;
+
     }
 
     void Start()
     {
         gameMessageText.text = "";
+        gamePaused = false;
     }
 
     void Update()
@@ -35,6 +42,7 @@ public class GameManager : MonoBehaviour
                 messageActive = false;
             }
         }
+
     }
 
     public void OnArtifactCollected()
@@ -66,6 +74,20 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void TogglePause()
+    {
+        gamePaused = !gamePaused;
+        if (gamePaused)
+        {
+            pauseImage.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            pauseImage.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
     public void ShowMessage(string message, float duration = 2f)
     {
         gameMessageText.text = message;
