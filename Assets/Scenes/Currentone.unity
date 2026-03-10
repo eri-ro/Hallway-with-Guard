@@ -33398,6 +33398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697ae83e5acac4044bacb1425d5affc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArtifactPickup
+  pickupEffect: {fileID: 5937920212225083989, guid: 32481ed6308f8d341969efe78c21d0f9, type: 3}
 --- !u!65 &1042786993
 BoxCollider:
   m_ObjectHideFlags: 0
