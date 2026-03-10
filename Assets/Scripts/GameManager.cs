@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         gameOver = true;
         ShowMessage("You escaped with the Crown Box!", 2f);
 
-        Time.timeScale = 2f;
+        Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         SceneManager.LoadScene("WinScreen");
@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
         gameOver = true;
         ShowMessage("You've been CAUGHT!");
 
-        Time.timeScale = 2f;
+        Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         SceneManager.LoadScene("GameOver");
