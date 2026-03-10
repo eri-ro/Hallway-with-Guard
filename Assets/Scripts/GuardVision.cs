@@ -12,24 +12,39 @@ public class GuardVision : MonoBehaviour
 
     public bool CanSeePlayer()
     {
-        Vector3 toPlayer = player.position - eye.position;
-        float dist = toPlayer.magnitude;
-        if (dist > viewDistance) return false;
-
-        // Angle check (half-angle on each side)
-        float halfAngle = viewAngle * 0.5f;
-        float angleToPlayer = Vector3.Angle(eye.forward, toPlayer);
-        if (angleToPlayer > halfAngle) return false;
-
-        // Line-of-sight check
         Vector3 origin = eye.position;
+        Vector3 target = player.position + Vector3.up * 1.2f;
+
+        Vector3 toPlayer = target - origin;
+        float dist = toPlayer.magnitude;
+
+        if (dist > viewDistance)
+            return false;
+
         Vector3 dir = toPlayer.normalized;
 
-        // Raycast: if we hit an obstruction before the player, can't see them
-        if (Physics.Raycast(origin, dir, out RaycastHit hit, viewDistance, obstructionMask | playerMask))
+        Debug.DrawRay(origin, eye.forward * viewDistance, Color.green);
+        Debug.DrawRay(origin, dir * dist, Color.red);
+
+        // Close-range forgiveness
+        if (dist < 2f)
         {
-            // We only "see" if the first hit is the player
-            if (((1 << hit.collider.gameObject.layer) & playerMask) != 0)
+            if (Physics.Raycast(origin, dir, out RaycastHit closeHit, dist + 0.25f))
+            {
+                if (closeHit.transform == player || closeHit.transform.IsChildOf(player))
+                    return true;
+            }
+        }
+
+        float halfAngle = viewAngle * 0.5f;
+        float angleToPlayer = Vector3.Angle(eye.forward, dir);
+
+        if (angleToPlayer > halfAngle + 5f)
+            return false;
+
+        if (Physics.Raycast(origin, dir, out RaycastHit hit, dist + 0.25f))
+        {
+            if (hit.transform == player || hit.transform.IsChildOf(player))
                 return true;
         }
 
