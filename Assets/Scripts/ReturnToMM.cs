@@ -19,6 +19,7 @@ public class ReturnToMM : MonoBehaviour
     public void OnClick()
     {
         //replace "SampleScene" with the name of the room
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
